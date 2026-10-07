@@ -4,85 +4,117 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- Unique page title for SEO and accessibility -->
-    <title>Gallery Of Our Professional Portfolio</title>
+    <meta
+        name="description"
+        content="Group A gallery showing technology, programming, database and multimedia learning activities."
+    >
+    <title>Gallery | Group A Portfolio</title>
 </head>
 
 <body>
 
-    <!-- Header contains the main heading and site navigation -->
+    <!-- This is the top section of the gallery page -->
     <header>
-        <h1>Professional Gallery</h1>
-
-        <!-- Navigation connects all five pages using  hyperlinks -->
-        <nav aria-label="Main navigation">
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="gallery.html">Gallery</a>
-            <a href="data.html">Data</a>
-            <a href="contact.html">Contact</a>
-        </nav>
+        <h1>Our Gallery</h1>
+        <p>Some of the technology areas and learning activities explored by Group A.</p>
     </header>
 
-    <!-- Main contains the primary multimedia content of the gallery -->
+    <!-- These links help users move between the five portfolio pages -->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="data.html">Data</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <!-- The main multimedia content starts here -->
     <main>
 
+        <!-- This section contains three images with captions -->
         <section>
             <h2>Our Work and Learning Journey</h2>
 
             <p>
-                This gallery presents some of the interests and activities in technology, programming, and web development.
+                These images represent some of the areas we are learning about
+                in software and web development.
             </p>
 
-            <!-- Figure groups each image with its descriptive caption -->
-           <figure>
-    <img src="./images/web_development.jpg"
-         alt="A computer screen showing a web development project"
-         width="400">
-    <figcaption>
-        Web development and website design practice.
-    </figcaption>
-</figure>
+            <!-- Alt text helps screen readers describe the images -->
+            <figure>
+                <img
+                    src="images/web_development.jpg"
+                    alt="Computer screen showing a web development project"
+                    width="400"
+                >
+                <figcaption>
+                    Web development and website design practice.
+                </figcaption>
+            </figure>
 
-<figure>
-    <img src="./images/programming.jpg"
-         alt="A programmer writing computer code"
-         width="400">
-    <figcaption>
-        Practicing programming and software development.
-    </figcaption>
-</figure>
+            <figure>
+                <img
+                    src="images/programming.jpg"
+                    alt="Programmer writing computer code on a computer"
+                    width="400"
+                >
+                <figcaption>
+                    Practising programming and software development.
+                </figcaption>
+            </figure>
 
-<figure>
-    <img src="./images/database.jpg"
-         alt="Computer technology used for managing and working with data"
-         width="400">
-    <figcaption>
-        Learning about databases and data management.
-    </figcaption>
-</figure>
+            <figure>
+                <img
+                    src="images/database.jpg"
+                    alt="Computer technology used for database and data management work"
+                    width="400"
+                >
+                <figcaption>
+                    Learning about databases and data management.
+                </figcaption>
+            </figure>
         </section>
 
-        <!-- Video provides multimedia content in addition to images -->
-       <section>
-    <h2>Learning Video</h2>
+        <!-- This section contains the required video -->
+        <section>
+            <h2>Learning Video</h2>
 
-    <video controls width="500">
-        <source src="./videos/learning.mp4" type="video/mp4">
-        Your browser does not support the video element.
-    </video>
+            <video controls width="500">
+                <source src="videos/learning.mp4" type="video/mp4">
+                Your browser does not support the video element.
+            </video>
 
-    <p>
-        A video related to technology and software development.
-    </p>
-</section>
+            <p>
+                A video related to technology and software development.
+            </p>
+        </section>
+
+        <!-- This aside gives quick links to related pages -->
+        <aside>
+            <h2>Quick Links</h2>
+
+            <ul>
+                <li><a href="data.html">Our Skills</a></li>
+                <li><a href="about.html">Our Goals</a></li>
+                <li><a href="contact.html">Contact Group A</a></li>
+            </ul>
+        </aside>
 
     </main>
 
-    <!-- Footer contains information about the website -->
+    <!-- This is the bottom section of the page -->
     <footer>
-        <p>&copy; 2026  Professional Portfolio</p>
+        <p>&copy; 2026 Group A. All rights reserved.</p>
+
+        <!-- These links point to the main websites shown in our design -->
+        <p>
+            <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">Instagram</a> |
+            <a href="https://github.com/albanbyamugisha/Professional-Portfolio_HTML5" target="_blank" rel="noopener noreferrer">GitHub</a> |
+            <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn</a> |
+            <a href="contact.html">Email</a> |
+            <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">YouTube</a> |
+            <a href="https://x.com/" target="_blank" rel="noopener noreferrer">X</a>
+        </p>
     </footer>
 
 </body>
